@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
   int sec,d,h,m,rem;
   sec=31558150;
@@ -12,4 +12,5 @@ void main()
   printf(" days %d", h);
   printf(" hours %d", m);
   printf(" minutes");
+  return 0;
 }
