@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
   long int bs,da,ha,gs;
   printf("Enter the basic salary: ");
@@ -8,4 +8,5 @@ void main()
   ha=(bs*10)/100;
   gs=bs+da+ha;
   printf("The gross salary is %ld", gs);
+  return 0;
 }
