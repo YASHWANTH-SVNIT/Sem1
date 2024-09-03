@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
   int S,hr,min,sec;
   printf("Enter the time in toatal seconds: ");
@@ -8,4 +8,5 @@ void main()
   min=(S-(hr*60*60))/60;
   sec=S-(hr*60*60)-(min*60);
   printf("The time is %d:%d:%d", hr,min,sec);
+  return 0;
 }
