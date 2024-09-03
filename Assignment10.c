@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
   int cm,m,p,c,e;
   printf("Enter the marks in Mathematics out of 200: ");
@@ -12,4 +12,5 @@ void main()
   scanf("%d", &e);
   cm=m/2+p/2+c/2+e;
   printf("The cutoff marks of the student is %d", cm);
+  return 0;
 }
