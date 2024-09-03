@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
   float per;
   int s1,s2,s3,s4,s5,t;
@@ -9,4 +9,5 @@ void main()
   per=t/5;
   printf("The total marks of student is %d", t);
   printf("\n The percentage is %f", per);
-  }  
+  return 0;
+}  
